@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+.covid{
+    background-color: #ffffff20;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-top: 1px solid #ffffff60;
+    border-left: 1px solid #ffffff60;
+    box-shadow: 3px 3px 4px #00000020;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.covid thead tr{
+    background-color: #ffffff30 !important;
+    color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.covid thead tr th,.covid tbody tr{
+    border: none !important;
+    color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.newD,.newC,.totalD,.totalC{
+    background-color: #ffffff30 !important;
+    border-radius: 5px;
 }
+.search-bar input{
+    box-shadow: none !important;
+    background-color: #ffffff40;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px #00000020,-1px -1px 3px #ffffff72 !important;
 
-.App-link {
-  color: #61dafb;
 }
+.search-bar input:focus{
+    box-shadow: none !important;
+    background-color: #ffffff40;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px #00000030,-2px -2px 3px #ffffff72 !important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.search-bar input::placeholder{
+    color: white;
 }
